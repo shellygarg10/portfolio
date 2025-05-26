@@ -1,11 +1,16 @@
 import { Globe, GithubIcon } from "lucide-react";
+import quiz_forge from '../assets/quiz_forge.png';
+import finova from '../assets/finova.png';
+import thriftAlley from '../assets/thriftAlley.png';
+import dashboard from '../assets/dashboard.png';
+import upshift from '../assets/upshift.png';
 
 const projects = [
   {
     title: "Quiz Forge",
     description:
       "An intelligent study tool that transforms PDF documents into interactive quizzes and flashcards for efficient learning.",
-    image: "src/assets/quiz_forge.png",
+    image: quiz_forge,
     techStack: ["Next.js", "Gemini AI API", "ShadCN UI", "TypeScript"],
     demoLink: "https://quiz-forge-six.vercel.app/",
     githubLink: "https://github.com/shellygarg10/QuizForge",
@@ -14,7 +19,7 @@ const projects = [
     title: "Finova",
     description:
       "A smart finance tracker that lets users upload receipts, manage expenses, and gain spending insights on mail.",
-    image: "src/assets/finova.png",
+    image: finova,
     techStack: ["Next.js", "Clerk", "PostgreSQL", "Arcjet", "Gemini AI API"],
     demoLink: "https://aifinova.vercel.app/",
     githubLink: "https://github.com/shellygarg10/finova",
@@ -23,7 +28,7 @@ const projects = [
     title: "ThriftAlley",
     description:
       "A full-stack e-commerce platform featuring product listings, secure payments, and real-time order tracking.",
-    image: "src/assets/thriftAlley.png",
+    image: thriftAlley,
     techStack: [ "MongoDB", "Express.js", "React.js", "Node.js", "Razorpay API"],
     demoLink: "https://thrift-alley-web.vercel.app/",
     githubLink: "https://github.com/shellygarg10/thriftAlley",
@@ -32,7 +37,7 @@ const projects = [
     title: "UpShift",
     description:
       "A modern landing page designed to showcase business software with smooth animations and responsive design.",
-    image: "src/assets/upshift.png",
+    image: upshift,
     techStack: ["React.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
     demoLink: "https://up-shift.vercel.app/",
     githubLink: "https://github.com/shellygarg10/UpShift",
@@ -41,7 +46,7 @@ const projects = [
     title: "Dashboard",
     description:
       "A responsive, frontend-only admin dashboard featuring interactive charts and a clean, minimalist UI.",
-    image: "src/assets/dashboard.png",
+    image: dashboard,
     techStack: ["React.js",  "Chart.js", "CMDK", "Tailwind CSS",],
     demoLink: "https://dashboard-gold.vercel.app/",
     githubLink: "https://github.com/shellygarg10/dashboard",

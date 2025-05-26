@@ -1,4 +1,5 @@
 import { useState } from "react";
+import paper from "./assets/paper.png";
 import HomeSection from "./components/HomeSection";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
@@ -25,7 +26,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-[#151312] text-white relative">
       {/* Background Texture */}
-      <div className="fixed top-0 left-0 w-full h-full opacity-10 pointer-events-none bg-[url('/src/assets/paper.png')] bg-repeat z-0" />
+      <div className="fixed top-0 left-0 w-full h-full opacity-10 pointer-events-none bg-repeat z-0" style={{ backgroundImage: `url(${paper})` }} />
 
       {/* Navigation */}
       <Navigation

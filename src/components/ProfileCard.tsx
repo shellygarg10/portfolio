@@ -1,11 +1,12 @@
 import shelly_pp from "../assets/shelly_pp.jpg";
 import { GithubIcon, LinkedinIcon, Mail, MapPin } from "lucide-react";
+import paperTexture from "../assets/paper.png";
 
 function ProfileCard() {
   return (
     <div className="bg-gradient-to-br from-[#242424] via-[#1E1E1E] to-[#141414] rounded-3xl p-6 sm:p-8 w-full lg:w-[320px] lg:h-[600px] mx-auto flex flex-col items-center shadow-lg relative overflow-hidden border-2 border-orange-400/20">
       {/* Texture Overlay */}
-      <div className="absolute inset-0 opacity-10 pointer-events-none rounded-3xl bg-[url('/src/assets/paper.png')] bg-repeat"></div>
+      <div className="absolute inset-0 opacity-10 pointer-events-none rounded-3xl bg-repeat" style={{ backgroundImage: `url(${paperTexture})` }}></div>
       <div className="relative z-10 flex flex-col items-center w-full">
         <img
           src={shelly_pp}

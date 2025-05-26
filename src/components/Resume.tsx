@@ -1,3 +1,17 @@
+import cplus from '../assets/icons/cplus.svg';
+import javascript from '../assets/icons/javascript.svg';
+import typescript from '../assets/icons/typescript.svg';
+import reactjs from '../assets/icons/reactjs.svg';
+import nextjs from '../assets/icons/nextjs.svg';
+import framer from '../assets/icons/framer.svg';
+import tailwindcss from '../assets/icons/tailwindcss.svg';
+import nodejs from '../assets/icons/nodejs.svg';
+import express from '../assets/icons/express.svg';
+import mongodb from '../assets/icons/mongodb.svg';
+import postgresql from '../assets/icons/postgresql.svg';
+import github from '../assets/icons/github.svg';
+import figma from '../assets/icons/figma.svg';
+
 const Resume = () => {
   return (
     <div>
@@ -190,66 +204,66 @@ const skills = [
   {
     name: "C++",
     label: "Programming Language",
-    src: "src/assets/icons/cplus.svg",
+    src: cplus,
   },
   {
     name: "JavaScript",
     label: "Programming Language",
-    src: "src/assets/icons/javascript.svg",
+    src: javascript,
   },
   {
     name: "TypeScript",
     label: "Typed JavaScript",
-    src: "src/assets/icons/typescript.svg",
+    src: typescript,
   },
   {
     name: "React.js",
     label: "Frontend Library",
-    src: "src/assets/icons/reactjs.svg",
+    src: reactjs,
   },
   {
     name: "Next.js",
     label: "React Framework",
-    src: "src/assets/icons/nextjs.svg",
+    src: nextjs,
   },
   {
     name: "Framer",
     label: "Prototyping Tool",
-    src: "src/assets/icons/framer.svg",
+    src: framer,
   },
   {
     name: "Tailwind CSS",
     label: "CSS Framework",
-    src: "src/assets/icons/tailwindcss.svg",
+    src: tailwindcss,
   },
   {
     name: "Node.js",
     label: "Backend Runtime",
-    src: "src/assets/icons/nodejs.svg",
+    src: nodejs,
   },
   {
     name: "Express.js",
     label: "Backend Framework",
-    src: "src/assets/icons/express.svg",
+    src: express,
   },
   {
     name: "MongoDB",
     label: "NoSQL Database",
-    src: "src/assets/icons/mongodb.svg",
+    src: mongodb,
   },
   {
     name: "PostgreSQL",
     label: "Relational Database",
-    src: "src/assets/icons/postgresql.svg",
+    src: postgresql,
   },
   {
     name: "GitHub",
     label: "Version Control",
-    src: "src/assets/icons/github.svg",
+    src: github,
   },
   {
     name: "Figma",
     label: "UI/UX Design Tool",
-    src: "src/assets/icons/figma.svg",
+    src: figma,
   },
 ];
