@@ -227,8 +227,8 @@ const skills = [
     src: nextjs,
   },
   {
-    name: "Framer",
-    label: "Prototyping Tool",
+    name: "Framer Motion",
+    label: "React Animation",
     src: framer,
   },
   {
