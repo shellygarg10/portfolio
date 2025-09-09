@@ -184,7 +184,7 @@ const experiences = [
 
 const education = [
   {
-    institution: "Guru Gobind Singh Indrapastha University",
+    institution: "Guru Gobind Singh Indraprastha University",
     degree: "BTech in Information Technology",
     duration: "Nov 2022 - Jun 2026",
     location: "New Delhi",
@@ -267,3 +267,4 @@ const skills = [
     src: figma,
   },
 ];
+
